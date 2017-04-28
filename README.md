@@ -18,6 +18,7 @@ When there are other icons present in the gutter(for ex: GitGutter), RubocopDiff
 ## Credits
 
 [pderichs/sublime_rubocop](https://github.com/pderichs/sublime_rubocop)
+
 Sam Mello for giving the best possible writeup for sublime plugin creation(https://cnpagency.com/blog/creating-sublime-text-3-plugins-part-1/)
 
 Sublime API Reference(https://www.sublimetext.com/docs/3/api_reference.html)
