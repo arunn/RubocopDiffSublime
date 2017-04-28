@@ -1,5 +1,5 @@
 import sublime, sublime_plugin, json
-from RubocopDiff.utils import Utils;
+from RubocopDiffSublime.utils import Utils;
 
 class Listeners(sublime_plugin.EventListener):
   def on_post_save_async(self, view):

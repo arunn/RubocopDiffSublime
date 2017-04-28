@@ -1,7 +1,7 @@
 import sublime, sublime_plugin, json
-from RubocopDiff.git_diff_lines import GitDiffLines;
-from RubocopDiff.utils import Utils;
-from RubocopDiff.rubocop_runner import RubocopRunner;
+from RubocopDiffSublime.git_diff_lines import GitDiffLines;
+from RubocopDiffSublime.utils import Utils;
+from RubocopDiffSublime.rubocop_runner import RubocopRunner;
 class SetMarkCommand(sublime_plugin.TextCommand):
     def run(self, edit):
       view = self.view

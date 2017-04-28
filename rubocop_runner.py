@@ -1,5 +1,5 @@
 import sys, json, subprocess, shlex;
-from RubocopDiff.utils import Utils;
+from RubocopDiffSublime.utils import Utils;
 
 class RubocopRunner(object):
   def __init__(self):

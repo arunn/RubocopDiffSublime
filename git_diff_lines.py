@@ -1,5 +1,5 @@
 import sys, json, subprocess, shlex, re, sublime, sublime_plugin;
-from RubocopDiff.utils import Utils;
+from RubocopDiffSublime.utils import Utils;
 
 class GitDiffLines(object):
   def __init__(self):
