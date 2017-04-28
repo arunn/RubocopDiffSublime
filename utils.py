@@ -61,5 +61,3 @@ class Utils(object):
         else:
           diff_offenses[line] = [offense['message']]
     return diff_offenses
-
-
