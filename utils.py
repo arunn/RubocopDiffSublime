@@ -45,7 +45,6 @@ class Utils(object):
   def get_marks(view, offense_dict):
     marks = []
     for line in offense_dict.keys():
-      print(line)
       pt = view.text_point(line - 1, 0)
       marks.append(view.line(pt))
     return marks
