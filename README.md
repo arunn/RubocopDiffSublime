@@ -1,5 +1,6 @@
 # RubocopDiffSublime
-Sublime plugin for rubocop on git diff
+
+Sublime Text 3 plugin for rubocop on git diff
 
 ## What does it do?
 
@@ -10,10 +11,20 @@ When hovered on the gutter icon, it shows the error messages for the lines in a 
 
 <img width="933" alt="screen shot 2017-04-28 at 8 45 06 am" src="https://cloud.githubusercontent.com/assets/389262/25512994/673603f6-2bef-11e7-8f42-5f1d03c5dac6.png">
 
+## Manual Installation
+
+1. Go to the packages folder. 
+    * Windows: %APPDATA%\Sublime Text 3
+    * OS X: ~/Library/Application Support/Sublime Text 3
+    * Linux: ~/.config/sublime-text-3
+2. Run the git clone command inside the packages directory: git clone git@github.com:arunn/RubocopDiffSublime.git "RubocopDiffSublime"
+
+3. Restart Sublime Text.
+
 
 ## Caveats
 
-When there are other icons present in the gutter(for ex: GitGutter), RubocopDiffSublime's icons and popups are not being shown. This can be fixed if the plugin provides configuration regarding it. Add the following to the GitGutter.settings file. 
+When there are other icons present in the gutter(for ex: GitGutter), RubocopDiffSublime's icons and popups may not be shown. This can be fixed if the plugin provides configuration regarding it. Add the following to the GitGutter.settings file for GitGutter plugin. 
 
 `"protected_regions": [`
 
