@@ -11,9 +11,22 @@ When hovered on the gutter icon, it shows the error messages for the lines in a 
 <img width="933" alt="screen shot 2017-04-28 at 8 45 06 am" src="https://cloud.githubusercontent.com/assets/389262/25512994/673603f6-2bef-11e7-8f42-5f1d03c5dac6.png">
 
 
-## TODO
+## Caveats
 
-When there are other icons present in the gutter(for ex: GitGutter), RubocopDiffSublime's icons and popups are not being shown. This needs to be fixed. 
+When there are other icons present in the gutter(for ex: GitGutter), RubocopDiffSublime's icons and popups are not being shown. This can be fixed if the plugin provides configuration regarding it. Add the following to the GitGutter.settings file. 
+
+`"protected_regions": [`
+
+`"sublimelinter-warning-gutter-marks",`
+
+`"sublimelinter-error-gutter-marks",`
+
+`"bookmarks",`
+
+`"rubocop_marks"`
+`],`
+
+`"enable_hover_diff_popup": false`
 
 ## Credits
 
