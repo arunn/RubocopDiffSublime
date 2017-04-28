@@ -17,7 +17,9 @@ When hovered on the gutter icon, it shows the error messages for the lines in a 
     * Windows: %APPDATA%\Sublime Text 3
     * OS X: ~/Library/Application Support/Sublime Text 3
     * Linux: ~/.config/sublime-text-3
-2. Run the git clone command inside the packages directory: git clone git@github.com:arunn/RubocopDiffSublime.git "RubocopDiffSublime"
+2. Run the git clone command inside the packages directory: 
+
+`git clone git@github.com:arunn/RubocopDiffSublime.git "RubocopDiffSublime"`
 
 3. Restart Sublime Text.
 
