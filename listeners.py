@@ -38,7 +38,7 @@ class Listeners(sublime_plugin.EventListener):
   def get_complete_html(self, entry):
     offense_html = self.get_offense_html(entry)
     html = """
-        <body id=show-scope>
+        <body id=rubocop-diff>
             <style>
                 p {
                   margin: 2px 0;
