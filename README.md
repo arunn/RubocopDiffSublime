@@ -13,15 +13,18 @@ When hovered on the gutter icon, it shows the error messages for the lines in a 
 
 ## Manual Installation
 
-1. Go to the packages folder. 
+1. Go to the sublime text folder. 
     * Windows: %APPDATA%\Sublime Text 3
     * OS X: ~/Library/Application Support/Sublime Text 3
     * Linux: ~/.config/sublime-text-3
-2. Run the git clone command inside the packages directory: 
+
+2. Go to packages folder
+
+3. Run the git clone command inside the packages directory: 
 
 `git clone git@github.com:arunn/RubocopDiffSublime.git "RubocopDiffSublime"`
 
-3. Restart Sublime Text.
+4. Restart Sublime Text.
 
 
 ## Caveats
